@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@mixin background($colorvalue) {
+    background: $colorvalue;
+}
+
+@mixin font($family, $style, $weight, $size, $color) {
+    font-weight: $weight;
+    font-style: $style;
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+}
+
+%circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+h1 {
+    @include font(Roboto, normal, 400, 50px, red)
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.typography {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .h2 {
+        @include font(Open Sans, normal, 700, 20px, #000000)
+    }
+
+    .h3 {
+        @include font(Open Sans, normal, 600, 15px, #000000)
+    }
+
+    .h4 {
+        @include font(Open Sans, normal, 400, 14px, #000000)
+    }
+
+    .h5 {
+        @include font(Open Sans, normal, 400, 12px, #000000)
+    }
+
+    .h6 {
+        @include font(Raleway, normal, 400, 36px, #000000)
+    }
+
+    .h7 {
+        @include font(Raleway, normal, 400, 30px, #000000)
+    }
+
+    .h8 {
+        @include font(Raleway, normal, 300, 16px, #000000)
+    }
+
+}
+
+.elipse {
+    display: flex;
+    gap: 24px;
+
+    .elipse1 {
+        @extend %circle;
+        @include background(#212121)
+    }
+
+    .elipse2 {
+        @extend %circle;
+        @include background(#E72424)
+    }
+
+    .elipse3 {
+        @extend %circle;
+        @include background(#86878B)
+    }
+
+    .elipse4 {
+        @extend %circle;
+        @include background(#333333)
+    }
+
+    .elipse5 {
+        @extend %circle;
+        @include background(#000000)
+    }
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+
+    .img {
+        display: flex;
+        gap: 37px;
+    }
+
+    .img1 {
+        background: url(../images/lamp1.png);
+        width: 23px;
+        height: 30px;
+    }
+
+    .img2 {
+        background: url(../images/keyboard2.png);
+        width: 37px;
+        height: 26px;
+    }
+
+    .img3 {
+        background: url(../images/lightining1.png);
+        width: 21px;
+        height: 33px;
+    }
+
+    .imgsocial {
+        background: url(../images/social1.png);
+        width: 317px;
+        height: 23px;
+    }
+}
+
+.buttons {
+    width: 740px;
+    height: 121px;
+    background: #333333;
+    border: 1px solid #333333;
+
+    .button {
+        display: flex;
+        width: 135px;
+        height: 42px;
+        border: 1px solid #FFFFFF;
+        align-items: center;
+        justify-content: center;
+        margin-top: 37px;
+        margin-left: 24px;
+    }
+
+
+    .buttontext {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+
+.styling {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    width: 740px;
+    height: 121px;
+    background: #333333;
+    border: 1px solid #333333;
+
+    .linewhite {
+        width: 64px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        margin-left: 30px;
+    }
+
+    .linered {
+        width: 64px;
+        height: 0px;
+        border: 1px solid #E72424;
+        margin-left: 30px;
+    }
+}

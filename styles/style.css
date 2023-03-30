@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+.elipse .elipse5, .elipse .elipse4, .elipse .elipse3, .elipse .elipse2, .elipse .elipse1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  font-family: Roboto;
+  color: red;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.typography {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.typography .h2 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  font-family: Open Sans;
+  color: #000000;
+}
+.typography .h3 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  font-family: Open Sans;
+  color: #000000;
+}
+.typography .h4 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #000000;
+}
+.typography .h5 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  font-family: Open Sans;
+  color: #000000;
+}
+.typography .h6 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  font-family: Raleway;
+  color: #000000;
+}
+.typography .h7 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  font-family: Raleway;
+  color: #000000;
+}
+.typography .h8 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  font-family: Raleway;
+  color: #000000;
+}
+
+.elipse {
+  display: flex;
+  gap: 24px;
+}
+.elipse .elipse1 {
+  background: #212121;
+}
+.elipse .elipse2 {
+  background: #E72424;
+}
+.elipse .elipse3 {
+  background: #86878B;
+}
+.elipse .elipse4 {
+  background: #333333;
+}
+.elipse .elipse5 {
+  background: #000000;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+.icons .img {
+  display: flex;
+  gap: 37px;
+}
+.icons .img1 {
+  background: url(../images/lamp1.png);
+  width: 23px;
+  height: 30px;
+}
+.icons .img2 {
+  background: url(../images/keyboard2.png);
+  width: 37px;
+  height: 26px;
+}
+.icons .img3 {
+  background: url(../images/lightining1.png);
+  width: 21px;
+  height: 33px;
+}
+.icons .imgsocial {
+  background: url(../images/social1.png);
+  width: 317px;
+  height: 23px;
+}
+
+.buttons {
+  width: 740px;
+  height: 121px;
+  background: #333333;
+  border: 1px solid #333333;
+}
+.buttons .button {
+  display: flex;
+  width: 135px;
+  height: 42px;
+  border: 1px solid #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  margin-top: 37px;
+  margin-left: 24px;
+}
+.buttons .buttontext {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.styling {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+  width: 740px;
+  height: 121px;
+  background: #333333;
+  border: 1px solid #333333;
+}
+.styling .linewhite {
+  width: 64px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  margin-left: 30px;
+}
+.styling .linered {
+  width: 64px;
+  height: 0px;
+  border: 1px solid #E72424;
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
